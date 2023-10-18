@@ -7,7 +7,6 @@ public class CustomerFinder {
                 return customer;
             }
         }
-        // Om ingen kund hittades, försök söka med personnummer separat
         for (Customer customer : customers) {
             if (input.equals(customer.getSocialSecurity())) {
                 return customer;

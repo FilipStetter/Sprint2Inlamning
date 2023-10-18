@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+
+
+
+
         try {
             List<Customer> customers = CustomerDataLoader.readCustomerData("personposter.txt");
 

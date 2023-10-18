@@ -4,7 +4,9 @@ public class Customer  {
     private String name;
     private String SocialSecurity;
     private LocalDate lastPaymentDate;
-    public  Customer(){}
+    public  Customer(LocalDate lastPaymentDate){
+         this.lastPaymentDate = lastPaymentDate;
+    }
     public Customer(String name, LocalDate lastPaymentDate) {
         this.name = name.substring(12);
         this.lastPaymentDate = lastPaymentDate;

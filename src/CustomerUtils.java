@@ -1,8 +1,4 @@
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 
 public class CustomerUtils {
     public static String getCustomerCategory(Customer customer) {
